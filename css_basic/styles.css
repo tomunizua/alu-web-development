@@ -1,0 +1,26 @@
+*{
+    background-color: rgb(241, 164, 214);
+}
+body, main{
+    display: flex;
+}
+body{
+    flex-direction: column;
+}
+main{
+    flex-direction: row;
+    flex: auto;
+}
+article, aside{
+    overflow-y: auto;
+}
+article{
+    flex: 2;
+}
+aside{
+    flex: 1;
+    background-color: rgb(250, 218, 239);
+}
+.pinkimage{
+    max-width: 500px;
+}
