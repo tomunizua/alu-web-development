@@ -8,7 +8,7 @@ body{
     font-family: Arial, "Source Sans Pro" !important;
 }
 
-header{
+header>div{
     width: 1104.408px;
     height: 29.461px;
     flex-shrink: 0;
@@ -93,10 +93,11 @@ button{
     margin-top: 168px;
 }
 .pro-profiles{
+    margin: 0px 214px 98px 214px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0px 214px 98px 214px;
+    justify-content: space-evenly;
+    
     width: 100%;
 }
 .pro-profiles>div{
@@ -151,17 +152,118 @@ button{
     flex-direction: row;
     align-items: center;
     color: #fff;
-    width: 1440px;
     height: 392px;
+    padding: 50px 200px;
 }
 .quote{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
+    justify-content: flex-start;
     text-align: left;
     font-family: Arial, "Source Sans Pro";
     font-size: 22px;
     font-weight: 400;
     font-style: normal;
     line-height: 34px;
+    /*width: 730px;*/
+}
+.quote>p {
+    margin: 0px 40px;
+}
+.italic{
+    font-style: italic;
+    font-weight: 400;
+}
+.person-name{
+    color: white;
+    font-size: 22px;
+    font-family: Arial,"Source Sans Pro";
+    font-weight: 700;
+    line-height: 33.60px;
+    word-wrap: break-word
+}
+
+/*Tutorial video section*/
+.tutorials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 87px;
+}
+.tutorials>h1{
+    text-align: center;
+    color: #071629;
+    font-size: 32px;
+    font-family: Arial,"Source Sans Pro";
+    font-weight: 300;
+    word-wrap: break-word;
+    margin-top: 87px;
+    margin-bottom: 0px;
+}
+.tutorials>div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.tutorial-item{
+   text-align: left;
+   width: 255px;
+   height: 335px;
+}
+.tutorial-item h2{
+    color: #071629;
+    font-size: 16px;
+    font-family: Arial,"Source Sans Pro";
+    font-weight: 700;
+    word-wrap: break-word;
+    font-style: normal;
+    line-height: normal;
+}
+.tutorial-item p{
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-family: Arial,"Source Sans Pro";
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin: 0;
+}
+.tutorial-avatar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tutorial-avatar>img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 13px;
+}
+.tutorial-avatar>h3{
+    color: #C271FF;
+    font-size: 14px;
+    font-family: Arial,"Source Sans Pro";
+    font-weight: 600;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+.rating>img{
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+.rating{
+    margin-right: 80px;
+    height: 15px;
+}
+.tutorial-foot{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.tutorial-foot>p{
+    margin: 0;
 }
