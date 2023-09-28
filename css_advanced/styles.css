@@ -1,23 +1,167 @@
 body{
-    background-color: bisque;
-}
-header{
+    margin: 0px;
     text-align: center;
+    background-image: url(./images/background.png);
+    min-height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: Arial, "Source Sans Pro" !important;
+}
+
+header{
+    width: 1104.408px;
+    height: 29.461px;
+    flex-shrink: 0;
+    margin: 35px 164px 0px 172px;
+    padding: 0px, 0px, 0px, 0px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    background: transparent;
 }
 
 .menu{
-    width: 100%;
-    height: 100%;
-    justify-content: center; 
-    align-items: flex-end; 
-    gap: 52px; 
-    display: flex;
-    color: #FFFFFF;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 53px;
+}
+.menu>a{
+    color: #FFF;
+    font-family: Arial, "Source Sans Pro";
     font-size: 12px;
-    font-family: Source Sans Pro;
+    font-style: normal;
     font-weight: 700;
-    word-wrap: break-word;
+    line-height: normal;
+    text-decoration: none;
+}
+
+button{
+    border-radius: 22px;
+    background: #C271FF;
+    width: 162px;
+    height: 44px;
+    bottom: 168px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Arial, "Source Sans Pro";
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+.main_part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    font-family: Arial, "Source Sans Pro";
+    font-size: 120px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 0px;
+}
+.tagline{
+    color: #FFF;
+    text-align: center;
+    font-family: Arial, "Source Sans Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    word-spacing: 57px;
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+
+/*pro section*/
+.pros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, "Source Sans Pro";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 168px;
+}
+.pro-profiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 214px 98px 214px;
+    width: 100%;
+}
+.pro-profiles>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 237px;
+    text-align: center;
+}
+.pro-profiles>div>img{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+.pros>h2 {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+.purple {
+    color: #C271FF;
+    font-weight: bold;
+}
+.pro-profiles>div>h3 {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.pro-profiles>div>p {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 0px;
+}
+
+/*testimonial*/
+.testimonial{
+    background-color: #C271FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    width: 1440px;
+    height: 392px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    font-family: Arial, "Source Sans Pro";
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 34px;
 }
