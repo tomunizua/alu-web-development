@@ -267,3 +267,25 @@ button{
 .tutorial-foot>p{
     margin: 0;
 }
+
+/*Membership section*/
+.membership{
+    background-color: #071629;
+    color: #FFF;
+    padding: 50px 150px;
+}
+.membership>h1{
+    color: white;
+    font-size: 32px;
+    font-family: Arial, "Source Sans Pro";
+    font-weight: 300;
+    word-wrap: break-word;
+    text-align: center;
+}
+.dots{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
